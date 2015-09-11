@@ -7,7 +7,7 @@ $(function(){
           }).html(function(){
             var inText = "<ul>";
             inText += "<li><span>lang: </span> " + $("html").attr("lang") + "</li>";
-            inText += "<li><span>meta: </span> " + $("meta").attr("charset") + "</li>";
+            inText += "<li><span>charset: </span> " + $("meta").attr("charset") + "</li>";
             inText += "<li><span>title: </span> " + $("title").text() + "</li>";
             inText += "<li><span>keywords: </span> " + $("meta[name='keywords']").attr("content") + "</li>";
             inText += "<li><span>description: </span> " + $("meta[name='description']").attr("content") + "</li>";
