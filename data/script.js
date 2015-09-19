@@ -37,9 +37,9 @@ $(function(){
             inText += "<li><span>icon: </span> " + $("link[rel*='icon']").attr("href") + "</li>";
             inText += "<li><span>apple-touch-icon: </span> " + $("link[rel*='apple-touch-icon']").attr("href") + "</li>";
             inText += "<li><span>og:image: </span> " + url1 + "</li>";
-            if(url1){inText += "<li><img src ='" + url1 + "' width='100'></li>"};
+            if(url1){inText += "<li><img src ='" + url1 + "' height='45'></li>"};
             inText += "<li><span>og:image TestServer: </span> " + url4 + "</li>";
-            if(url4){inText += "<li><img src ='" + url4 + "' width='100'></li>"};
+            if(url4){inText += "<li><img src ='" + url4 + "' height='45'></li>"};
             inText += "</ul>";
             inText += "<div id='closeBtn'>×</div>";
             return inText;

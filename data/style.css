@@ -12,12 +12,16 @@
 }
 
 #metaBox li{
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   list-style-type: none;
   text-align: left !important;
   color: lawngreen;
   -webkit-text-shadow: 0 0 7px #000, 0 0 7px #000;
   text-shadow: 0 0 7px #000, 0 0 7px #000;
+}
+
+#metaBox li > img{
+  height:45px !important;
 }
 
 #metaBox li span{
