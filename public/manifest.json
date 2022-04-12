@@ -1,0 +1,24 @@
+{
+  "name": "metaCheckMan",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "metaデータのチェック",
+  "host_permissions": ["<all_urls>","*://*/*"],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "background": {
+    "service_worker": "./js/background.js"
+  },
+  "action": {
+    "default_title": "Click me"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}

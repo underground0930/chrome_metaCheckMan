@@ -1,0 +1,48 @@
+{
+  "name": "chrome-extension-metacheckman",
+  "version": "1.0.0",
+  "description": "chrome-extension-metacheckman",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist",
+    "test": "npx jest",
+    "style": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/underground0930/chrome_metaCheckMan"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.7.1",
+    "@emotion/css": "^11.9.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/weak-memoize": "^0.2.5",
+    "@types/react-frame-component": "^4.1.3",
+    "jquery": "^3.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-frame-component": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.181",
+    "@types/jest": "^27.4.1",
+    "@types/jquery": "^3.5.14",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "glob": "^8.0.1",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2 ",
+    "ts-jest": "^27.1.4",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
