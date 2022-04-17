@@ -10,7 +10,7 @@ Chrome Extension 「chrome_metaCheckMan」
 
 # Capture
 
-![metaCheckMan](https://github.com/underground0930/chrome_metaCheckMan/wiki/img/pic.jpg)
+![metaCheckMan](https://user-images.githubusercontent.com/4293172/163714328-c13f202f-591c-4f92-a56e-255baa1822ee.png)
 
 # Icon (thanks!)
 
