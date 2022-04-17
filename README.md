@@ -1,8 +1,15 @@
-# Chrome Extension
+# Chrome Extension Name
 
 Chrome Extension 「chrome_metaCheckMan」
 
-##capture
+# Chrome WebStore URL
+
+- <a href="https://chrome.google.com/webstore/detail/metacheckman/pbaikbiiaamibbojlnkonhhbbpofbgeh?hl=ja" target="_blank" rel="noopener">
+  https://chrome.google.com/webstore/detail/metacheckman/pbaikbiiaamibbojlnkonhhbbpofbgeh?hl=ja
+  </a>
+
+# Capture
+
 ![metaCheckMan](https://github.com/underground0930/chrome_metaCheckMan/wiki/img/pic.jpg)
 
 # Icon (thanks!)
