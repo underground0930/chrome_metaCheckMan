@@ -14,7 +14,7 @@ Chrome Extension 「chrome_metaCheckMan」
 
 # Icon (thanks!)
 
-https://icooon-mono.com/license/
+https://icooon-mono.com/14307-%e7%9c%bc%e7%90%83%e3%81%ae%e7%84%a1%e6%96%99%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b31/
 
 ## Prerequisites
 

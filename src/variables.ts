@@ -74,7 +74,7 @@ export const metaList: {
   "og:site_name": {
     selector: "meta[property='og:site_name']",
     attribute: "content",
-    group: "",
+    group: "og",
   },
   "og:title": {
     selector: "meta[property='og:title']",

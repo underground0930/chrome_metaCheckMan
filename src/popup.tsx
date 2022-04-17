@@ -25,14 +25,15 @@ const init = () => {
     window.metaCheckMan.root = createRoot(document.body.appendChild(div));
     window.metaCheckMan.isRender = true;
     window.metaCheckMan.root.render(<Popup />);
+    //    console.log("first");
     return;
   }
 
-  // 2回目以降でunmound
+  // 2回目以降でunmount
   if (window.metaCheckMan.isRender) {
     window.metaCheckMan.isRender = false;
     window.metaCheckMan.root.unmount();
-    console.log(2);
+    // console.log("unmount");
     return;
   }
 
@@ -42,7 +43,7 @@ const init = () => {
     window.metaCheckMan.isRender = true;
     window.metaCheckMan.root = createRoot(target);
     window.metaCheckMan.root.render(<Popup />);
-    console.log(3);
+    // console.log("rerender");
   }
 };
 init();
