@@ -10,7 +10,13 @@ Chrome Extension 「chrome_metaCheckMan」
 
 # Capture
 
+## web page
+
 ![metaCheckMan](https://user-images.githubusercontent.com/4293172/163714328-c13f202f-591c-4f92-a56e-255baa1822ee.png)
+
+## option page
+
+![metaCheckMan](https://user-images.githubusercontent.com/4293172/163794725-028c9994-02bc-447b-a934-74bf6efc0aef.png)
 
 # Icon (thanks!)
 
