@@ -4,8 +4,10 @@ export const defaultMetaKeys: { [key: string]: string } = {
   charset: "1",
   keywords: "1",
   description: "1",
+  robots: "1",
   shortcut: "1",
   icon: "1",
+  canonical: "1",
   "apple-touch-icon": "1",
   "og:site_name": "1",
   "og:title": "1",
@@ -53,6 +55,11 @@ export const metaList: {
     attribute: "content",
     group: "",
   },
+  robots: {
+    selector: "meta[name='robots']",
+    attribute: "content",
+    group: "",
+  },
   shortcut: {
     selector: "link[rel*='shortcut']",
     attribute: "href",
@@ -67,6 +74,12 @@ export const metaList: {
   },
   "apple-touch-icon": {
     selector: "link[rel*='apple-touch-icon']",
+    attribute: "href",
+    type: "link",
+    group: "",
+  },
+  canonical: {
+    selector: "link[rel*='canonical']",
     attribute: "href",
     type: "link",
     group: "",
